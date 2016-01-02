@@ -1,0 +1,176 @@
+/*
+Theme Name:Atomic Project
+Author:Suraiya Aysha
+SEIP ID: 118719
+Date:25/12/2015
+*/
+
+/*=========================
+Base Css
+===========================*/
+html,
+body{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #686767;
+    font-size: 18px;
+    font-weight: 400;
+}
+a,a:hover{
+    text-decoration: none;
+}
+a{
+    -moz-transition:0.3s;
+    -o-transition:0.3s;
+    -webkit-transition:0.3s;
+    transition:0.3s;
+    color: #333;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+}
+.main_menu ul li a, .text-button a{
+    transition: .5s; 
+}
+
+/*=========================
+My Style Css
+===========================*/
+
+/*============================================
+For Main Index Page
+=============================================*/
+
+/*----------------
+header area style
+------------------*/
+.header_area{
+    background-color:#000000;
+    color: #FFA200;
+    border-bottom: 1px solid #FFA200;
+}
+.header_area h1 {
+  padding: 10px 0;
+}
+/*----------------
+My Identity area style
+------------------*/
+.my_identity{
+  background-color: #000000; 
+}
+.about_me {
+  color: #ffa200;
+  padding: 10px 0;
+}
+/*----------------
+All Project area style
+------------------*/
+.all_project {
+  border-bottom: 2px solid #ffa200;
+  border-top: 2px solid #ffa200;
+  color: #000000;
+  padding: 50px 0;
+}
+.project_menu{}
+.project_menu nav ul li{
+    display: block;
+}
+.project_menu nav ul li a{
+    color:#000000;
+}
+.project_menu nav ul li a:hover{
+    color: #FFA200;
+}
+/*------------
+footer area
+-----------------*/
+.footer_area {
+  background-color: #000000;
+}
+.footer_area a{
+    color: #fff;
+}
+.footer_area a:hover{
+    color: #FFA200;
+}
+.copy_right {
+  padding: 13px 0;
+}
+
+
+/*============================================
+For Book_Title Index Page
+=============================================*/
+.book_header_area{
+    background-color:#000000;
+    color:#fff;
+    border-bottom: 1px solid #FFA200; 
+}
+.book_header_area h1{
+    color:#FFA200;
+}
+.book_menu{}
+
+.book_menu nav ul li{
+    display: inline-block;
+}
+.book_menu nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 23px 10px;
+}
+.book_menu nav ul li a:hover{
+    color: #FFA200;
+}
+.list_area {
+  padding: 60px 0;
+}
+.list_area h2 {
+  color: #000000;
+  padding-bottom: 60px;
+  margin: 0px;
+}
+.list_area table {
+  color: #000000;
+  height: 100%;
+  width: 100%;
+}
+.list_area .row .col-md-12 table th {
+  text-align: center;
+}
+.list_area .row .col-md-12 table a, .next_prev{
+ padding: 10px;
+}
+.list_area .row .col-md-12 table a:hover ,.next_prev a:hover{
+  color: #FFA200;
+}
+/* for Book_create page*/
+.create_book_area{
+    color:#000000;
+    min-height: 500px;
+}
+.create_book_area h2 {
+  text-align: center;
+  padding: 35px 0px;
+}
+.create_book_area .col-md-12 form {
+  padding: 38px 0;
+}
+.create_book_area .row form .row{
+    padding-bottom: 10px;
+}
+/*============================================
+For Birthday Index Page
+=============================================*/
+
+/*============================================
+For City Index Page
+=============================================*/
